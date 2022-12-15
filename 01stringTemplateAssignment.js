@@ -12,7 +12,8 @@ function stringTemplateAssig(){
 
     // console.log("My hobbies are : ",myHobby01);
     console.log(`   2.1) My Hobbies are : ${myHobby1} ${myHobby2} ${myHobby3}`);
-    var concat=myHobby1+myHobby2+myHobby3;
+   
+     var concat=myHobby1+myHobby2+myHobby3;
     console.log(`   2.2) My Hobbies after Concatination using String Template : ${concat}`);
 }
 stringTemplateAssig();
