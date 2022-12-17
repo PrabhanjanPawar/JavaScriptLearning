@@ -30,8 +30,9 @@ console.log(`\n3)--------Check the Length of given Word is Even or Odd--------\n
 
         var lengthOfWord=value.length %2==0 ? "EVEN" : "ODD";
         console.log(`    The Length of "${value}" is "${lengthOfWord}"`);
-        return lengthOfWord;
+       // return lengthOfWord;
     }
-    var showResult=wordEvenOdd("JavaScript");
+    //var showResult=
+    wordEvenOdd("JavaScript");
     var showResult=wordEvenOdd("Developer");
     var showResult=wordEvenOdd("Google");
