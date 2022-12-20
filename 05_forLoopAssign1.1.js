@@ -10,15 +10,15 @@ function forLoopOne(number) {
 }
 forLoopOne();
 
-// console.log(`*****"For Loop : to print numbers from 50 to 40 decrementing by 1"*****\n`);
+console.log(`*****"For Loop : to print numbers from 50 to 40 decrementing by 1"*****\n`);
 
-// function forLoopTwo(number1) {
+function forLoopTwo(number1) {
     
-//     var num1;
-//     for (let num1 = 50; num1 >= 40; num1--) {
-//         console.log(num1);
-//     }
-// }forLoopTwo();
+    var num1;
+    for (let num1 = 50; num1 >= 40; num1--) {
+        console.log(num1);
+    }
+}forLoopTwo();
 
 // console.log(`*****"For Loop : to find First 15 ODD numbers"*****\n`);
 
