@@ -53,3 +53,18 @@ function forLoopEven(number3) {
     }   
 }forLoopEven();
 
+console.log(`*****"For Loop : for Table of 5"*****\n`);
+
+    function forLoopTable(number5) {
+    
+        var num5;
+        for (let num5 = 1; num5 <=10; num5++) {
+    
+            console.log(num5*5);
+        }
+    }
+    forLoopTable();
+
+console.log(`*****"For Loop : for Table of 10"*****\n`);
+
+  
