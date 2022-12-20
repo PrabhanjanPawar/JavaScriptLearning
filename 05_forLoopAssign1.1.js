@@ -37,19 +37,19 @@ function forLoopOdd(number2) {
     }   
 }forLoopOdd();
 
-// console.log(`*****"For Loop : to find First 10 EVEN numbers"*****\n`);
+console.log(`*****"For Loop : to find First 10 EVEN numbers"*****\n`);
 
-// function forLoopEven(number3) {
+function forLoopEven(number3) {
  
-//     var num3;
-//     for (let num3 = 1; num3 < 20; num3++) {
+    var num3;
+    for (let num3 = 1; num3 < 20; num3++) {
         
-//         if (num3%2==0) {
-//             console.log(num3);
-//         }      
-//         // temp=num2;
-//         // num2++;
-//         // console.log(temp);
-//     }   
-// }forLoopEven();
+        if (num3%2==0) {
+            console.log(num3);
+        }      
+        // temp=num2;
+        // num2++;
+        // console.log(temp);
+    }   
+}forLoopEven();
 
