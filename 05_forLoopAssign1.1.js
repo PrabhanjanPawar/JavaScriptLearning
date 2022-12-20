@@ -20,22 +20,22 @@ function forLoopTwo(number1) {
     }
 }forLoopTwo();
 
-// console.log(`*****"For Loop : to find First 15 ODD numbers"*****\n`);
+console.log(`*****"For Loop : to find First 15 ODD numbers"*****\n`);
 
-// function forLoopOdd(number2) {
+function forLoopOdd(number2) {
  
-//     var num2;
-//     var temp=0;
-//     for (let num2 = 1; num2 < 30; num2++) {
+    var num2;
+    var temp=0;
+    for (let num2 = 1; num2 < 30; num2++) {
         
-//         if (num2%2!=0) {
-//             console.log(num2);
-//         }      
-//         // temp=num2;
-//         // num2++;
-//         // console.log(temp);
-//     }   
-// }forLoopOdd();
+        if (num2%2!=0) {
+            console.log(num2);
+        }      
+        // temp=num2;
+        // num2++;
+        // console.log(temp);
+    }   
+}forLoopOdd();
 
 // console.log(`*****"For Loop : to find First 10 EVEN numbers"*****\n`);
 
@@ -52,3 +52,4 @@ function forLoopTwo(number1) {
 //         // console.log(temp);
 //     }   
 // }forLoopEven();
+
