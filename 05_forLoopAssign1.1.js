@@ -67,4 +67,13 @@ console.log(`*****"For Loop : for Table of 5"*****\n`);
 
 console.log(`*****"For Loop : for Table of 10"*****\n`);
 
-  
+    function loopTable(number6) {
+        
+        var num6;
+        for (let num6 = 1; num6 <= 10; num6++) {
+            //const element = array[index];
+            console.log(num6*10);
+            
+        }
+    }
+    loopTable();
