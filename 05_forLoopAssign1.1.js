@@ -26,7 +26,7 @@ function forLoopOdd(number2) {
  
     var num2;
     var temp=0;
-    for (let num2 = 1; num2 < 30; num2++) {
+    for (let num2 = 1; num2 < 31; num2++) {
         
         if (num2%2!=0) {
             console.log(num2);
@@ -42,7 +42,7 @@ console.log(`*****"For Loop : to find First 10 EVEN numbers"*****\n`);
 function forLoopEven(number3) {
  
     var num3;
-    for (let num3 = 1; num3 < 20; num3++) {
+    for (let num3 = 1; num3 < 22; num3++) {
         
         if (num3%2==0) {
             console.log(num3);
@@ -62,6 +62,11 @@ console.log(`*****"For Loop : for Table of 5"*****\n`);
     
             console.log(num5*5);
         }
+//         var num5;
+// for (let num5 = 5; num5 <=50; num5=num5+5) {
+//     console.log(num5);
+// }
+
     }
     forLoopTable();
 
@@ -71,9 +76,18 @@ console.log(`*****"For Loop : for Table of 10"*****\n`);
         
         var num6;
         for (let num6 = 1; num6 <= 10; num6++) {
-            //const element = array[index];
-            console.log(num6*10);
-            
-        }
+               console.log(num6*10);
+            }
     }
     loopTable();
+
+console.log(`*****"For Loop : Reverse Table of 10"*****\n`);
+
+  function loopTable2(number7) {
+        
+    var num7;
+    for (let num7 = 100; num7 >= 10; num7=num7-10) {
+            console.log(num7);
+    }
+}
+loopTable2();
