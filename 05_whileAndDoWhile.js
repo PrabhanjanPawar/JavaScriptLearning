@@ -11,3 +11,19 @@ while (a>=40) {         //Condition
     console.log(a);     
     a--;                //Update Expression
 }
+
+console.log(`" ***** While Loop to find 15 first ODD Numbers***** "\n`);
+
+var b=1;
+var counter=0;
+while (b<=100) {
+    if (b%2==0) {
+        console.log(b);        
+        counter=counter+1;
+    }
+    if (counter==15) {
+        break;
+    }
+    b++;
+}  
+console.log(`Total no of EVEN numbers : ${counter}`);
