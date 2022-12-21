@@ -51,7 +51,12 @@ do {
  i=i+5;    
 } while (i<=50);
 
-
+console.log(`\n" ***** do While Loop to print table of 10 ***** "\n`);
+var a=10;
+do {
+    console.log(a);
+    a=a+10;
+} while (a<=100);
 
 
 
