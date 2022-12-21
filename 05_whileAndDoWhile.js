@@ -58,8 +58,17 @@ do {
     a=a+10;
 } while (a<=100);
 
+console.log(`\n" ***** do While Loop to print table of reverse 10 ***** "\n`);
+var num=100;
+var count=0;
+do {
+    console.log(num);
+    num=num-10;
 
+} while (num>=10);
+ 
 
+  
 
 
 
