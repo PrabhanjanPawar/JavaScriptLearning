@@ -43,3 +43,21 @@ while (d<=100) {
     d++;
 }  
 console.log(`Total no of EVEN numbers : ${counter}`);
+
+console.log(`\n" ***** do While Loop to print table of 5 ***** "\n`);
+var i=5;
+do {
+ console.log(i);
+ i=i+5;    
+} while (i<=50);
+
+
+
+
+
+
+
+
+
+
+
