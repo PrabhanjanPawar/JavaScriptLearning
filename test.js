@@ -69,3 +69,4 @@ function greatestNo(number1, number2, number3) {
 greatestNo(56, 70, 80);
 greatestNo(20, -90, 0);
 greatestNo(67,"five", 29);
+
