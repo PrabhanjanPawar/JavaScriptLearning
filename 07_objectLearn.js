@@ -37,3 +37,13 @@ const billgates = {
 console.log(Object.entries(billgates));
 console.log(Object.keys(billgates));
 console.log(Object.values(billgates));
+
+console.log(`Object entries`);
+const billgates = {
+    height: 6,
+    weight: 70,
+    age: 23,
+    name: "Billgates"
+    company: "Microsoft",
+    valuation: "130B $"
+}
