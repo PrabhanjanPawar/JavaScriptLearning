@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is Session Storage</title>
+    </head>
+
+    <body>
+        <h2>This is Session Storage</h2>
+
+        <script>
+            console.log(`"Hello, ==> Session Storage"`);
+            window.sessionStorage.setItem("name", "Prabhanjan Arun Pawar");
+            window.sessionStorage.setItem("city", "Satara");
+            window.sessionStorage.setItem("pinCode", "411523");
+            window.sessionStorage.setItem("district", "Satara");
+            
+            window.sessionStorage.removeItem("pinCode");
+        </script>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is Local Storage</title>
+    </head>
+
+    <body>
+        <h2>This is Local Storage Session</h2>
+
+        <script>
+            console.log(`"Hello, ==> Session Storage"`);
+            window.localStorage.setItem("name", "Prabhanjan Arun Pawar");
+            window.localStorage.setItem("city", "Satara");
+            window.localStorage.setItem("pinCode", "411523");
+            window.localStorage.setItem("district", "Satara");
+
+            window.localStorage.removeItem("city");
+
+
+        </script>
+    </body>
+</html>

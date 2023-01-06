@@ -12,11 +12,15 @@ const professor = {
         certificate2 : "Certificate in IFE Course",
         certificate3 : "Certificate in Adv Programming",
       },
-    //     concatDegrees : function () {
+    //     const concatDegrees : function () {
     //         console.log(`After Concaiation : \n`, this.certificate1 + this.certificate2 + this.certificate3 );        
     //   }
+    // concat : function () {
+    //         return this.certificate1+this.certificate2+this.certificate4;
+    // }
     
 }
+//console.log(professor.certificates);
 console.log(`Empty Object : `);
 professor.name = "Prabhanjan";  //to add properties on empty constructor
 professor.age = 31;
