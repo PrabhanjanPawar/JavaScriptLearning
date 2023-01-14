@@ -23,6 +23,10 @@ const finalResult = evenNums.reduce((runningTotal, value) => runningTotal + valu
 console.log(evenNums);
 console.log(finalResult);
 
-console.log("Chaining methods");
+console.log("Chaining methods", ": sum of EVEN numbers");    //sum of even numbers
 const resultSum = array.filter( value => value%2==0).reduce((runningTotal, value) => runningTotal + value);
 console.log(resultSum);
+
+console.log("Chaining methods", ": sum of ODD numbers");    // sum of odd numbers
+const oddNums = array.filter( value => value%2!=0).reduce((runningTotal, value) => runningTotal + value);
+console.log(oddNums);
