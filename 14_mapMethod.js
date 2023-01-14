@@ -6,6 +6,11 @@ const arrayTransform = arrayOfNumber.map((currentValue)=>{
 });
 console.log(arrayTransform);
 
+const newArray = arrayOfNumber.map( (currentValue) => {
+          return currentValue+50;
+});
+console.log(newArray);
+
 
 const arrayOfSquare =arrayOfNumber.map((currentValue)=>{ // 0 
     return currentValue * currentValue; // 4
