@@ -22,33 +22,50 @@ const emp_mahesh = new Employee(99, "Mahesh", "HR", 85000, "Infy");
 
 const array_emps = [emp_akash, emp_rohit, emp_monika, emp_prabhu, emp_rahul, emp_vinayak, emp_mahesh];
 console.log(` 1) ----- Find all Employees from "Wipro"`);
-array_emps.filter( (element) => {
-        if (element.emp_company=="Wipro") {
-            console.log(element);
-        }
-});
 
+const arrayWipro = array_emps.filter( (currentValue) => {
+            return currentValue.emp_company=="Wipro";
+});
+//console.log(arrayWipro);
+arrayWipro.forEach( (currentValue) => {
+        console.log(currentValue);
+});
+//--------------------------------------------------------------------
 console.log(` 2) ----- Find all Employees from "IT" and "HR" Dept`);
 
-array_emps.filter((department) => {
-        if (department.emp_dept == "HR" || department.emp_dept == "IT") {
-            console.log(department);
-        }
+// array_emps.filter((department) => {
+//         if (department.emp_dept == "HR" || department.emp_dept == "IT") {
+//             console.log(department);
+//         }
+// });
+const arrayDept = array_emps.filter( (currentValue) => {
+       return currentValue.emp_dept =="HR" || currentValue.emp_dept == "IT";
+});
+
+arrayDept.forEach( (currentValue) => {
+        console.log(currentValue);
 });
 
 console.log(` 3) ----- Find all Employees whose emp_id > 50`);
 
-array_emps.filter((employeeId) => {
-            if (employeeId.emp_id > 50) {
-                console.log(employeeId);
-            }
+// array_emps.filter((employeeId) => {
+//             if (employeeId.emp_id > 50) {
+//                 console.log(employeeId);
+//             }
+// });
+const arrayId = array_emps.filter( (currentValue) => {
+           return currentValue.emp_id > 50;
+});
+
+arrayId.forEach( (currentValue) => {
+        console.log(currentValue);
 });
 
 console.log(` 4) ----- Find all Employees whose Name start with "A", "V", "M"`);
 
-array_emps.filter( (nameStart) => {
-            if (nameStart.emp_name.startsWith("A") || nameStart.emp_name.startsWith("V") || nameStart.emp_name.startsWith("M")) {
-                console.log(nameStart);
+array_emps.filter( (currentValue) => {
+            if (currentValue.emp_name.startsWith("A") || currentValue.emp_name.startsWith("V") || currentValue.emp_name.startsWith("M")) {
+                console.log(currentValue);
             }
 });
 

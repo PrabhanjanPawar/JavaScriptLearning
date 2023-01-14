@@ -35,3 +35,9 @@ const newArray = employeeArray.filter((value) => {
                //return value.emp_company, value.emp_name;
             }
 });
+
+const resultArray = employeeArray.filter( (currentValue) => {
+                   return currentValue.emp_company == "TCS";
+});
+console.log(resultArray);
+
