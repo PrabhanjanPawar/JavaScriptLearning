@@ -1,8 +1,8 @@
 console.log("**************Today's 2nd Assignment**************");
-console.log("=======Before Initilization=======");
+console.log("=======Before Initialization=======");
 var bankName;
 console.log(bankName);
-console.log("=======After initilization=======");
+console.log("=======After initialization=======");
 bankName="SBI Bank";
 console.log("bankName =", bankName);
 var bankType=typeof bankName;
@@ -13,10 +13,10 @@ var marks="90%";
 var marksType=typeof(marks);
 console.log(marksType);
 
-console.log("=======dataType of 'isWorking' before Initilization=======");
+console.log("=======dataType of 'isWorking' before Initialization=======");
 var isWorking;
 console.log(isWorking);
-console.log("=======dataType of 'isWorking' after Initilization=======");
+console.log("=======dataType of 'isWorking' after Initialization=======");
 isWorking=true;
 var workingType=typeof isWorking;
 console.log(workingType);
